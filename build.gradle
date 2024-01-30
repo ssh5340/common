@@ -24,6 +24,8 @@ dependencies {
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
     // SQLITE JDBC
     implementation 'org.xerial:sqlite-jdbc:3.36.0.3'
+    // MyBatis
+    implementation 'org.mybatis.spring.boot:mybatis-spring-boot-starter:2.2.0'
 }
 
 tasks.named('test') {
